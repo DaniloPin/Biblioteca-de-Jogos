@@ -3,13 +3,13 @@ package com.projetodanilo.dslist.dto;
 import com.projetodanilo.dslist.entities.Game;
 
 public class GameMinDTO {
-	
+
 	private Long id;
 	private String title;
 	private Integer year;
 	private String imgUrl;
 	private String shortDescription;
-	
+
 	public GameMinDTO() {		
 	}
 
@@ -40,7 +40,7 @@ public class GameMinDTO {
 	public String getShortDescription() {
 		return shortDescription;
 	}
-	
-	
-	
+
+
+
 }
